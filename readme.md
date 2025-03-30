@@ -1,6 +1,6 @@
 # Useful C++ classes
 Some useful classes that demonstrate the capabilities of the C++ language. Can be used to solve some arithmetic problems or to simplify writing and improve the readability of code.
-## ~Dictionary<TKey,TValue> class~
+## Dictionary<TKey,TValue> class
 ### Description
 The class is a C++ implementation of the C# Dictionary<TKey,TValue> class, and includes some basic methods and properties borrowed from the C# dictionary class.
 ### Type parameters
@@ -30,7 +30,7 @@ The class is a C++ implementation of the C# Dictionary<TKey,TValue> class, and i
 | try_get_value(const _Tkey k, _Tvalue &v) const noexcept | bool | Returns the value associated with the specified key. |
 | output() | void | Formatted output of Dictionary<_Tkey,_Tvalue>.|
 
-## ~Roman class~
+## Roman class
 ### Description
 Class for working with Roman numerals. Includes overloaded unary assignment operator `=` and main binary arithmetic (`+`, `-`) and comparison operators (`>`, `<`, `==`, `>=`, `<=`, `!=`).
 ### Type parameters
